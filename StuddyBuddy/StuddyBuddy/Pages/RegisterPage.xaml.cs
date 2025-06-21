@@ -8,6 +8,6 @@ public partial class RegisterPage : ContentPage
 	}
     private void RegisterSubmit(object sender, EventArgs e)
     {
-
+		//call service
     }
 }

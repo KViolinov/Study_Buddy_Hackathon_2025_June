@@ -8,6 +8,6 @@ public partial class LoginPage : ContentPage
 	}
     private void LoginSubmit(object sender, EventArgs e)
     {
-
+		//call service
     }
 }
