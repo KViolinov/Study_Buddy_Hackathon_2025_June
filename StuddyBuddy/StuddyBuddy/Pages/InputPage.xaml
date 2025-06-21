@@ -2,28 +2,17 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="StuddyBuddy.Pages.InputPage"
-             BackgroundColor="Black"
+             BackgroundColor="#f9f9f9"
              Title="InputPage">
 
     <ScrollView>
         <VerticalStackLayout>
-            <Grid ColumnDefinitions="Auto, *" ColumnSpacing="0">
 
-               
                 <Image Source="study_buddy_logo.png"
        WidthRequest="280"
        HeightRequest="280"
        Grid.Column="1"
        Aspect="AspectFit" />
-
-
-               
-            </Grid>
-            
-            
-            
-            
-            
 
             <Grid ColumnDefinitions="Auto, *" ColumnSpacing="10">
                 <Button Text="+" 
@@ -33,7 +22,11 @@
                     BackgroundColor="#9d6ce6"
                     TextColor="White"
                     FontSize="24" />
-                <Entry Placeholder="Enter something..." Grid.Column="1" />
+                <Entry Placeholder="Enter something..." 
+                       Grid.Column="1" 
+                       FontFamily="TimesNewRoman"
+                       TextColor="Black"
+                       FontAttributes="Bold"/>
             </Grid>
 
             <Grid RowDefinitions="*,*"
@@ -47,25 +40,32 @@
                         Grid.Column="0"
                         BackgroundColor="#0769C3"
                         TextColor="White"
-                        FontFamily="TimesNewRoman"/>
+                        FontFamily="TimesNewRoman"
+                        Clicked="ClickedSummaryButton"/>
+
                 <Button Text="Quiz"
                         Grid.Row="0"
                         Grid.Column="1"
                         BackgroundColor="#0769C3"
                         TextColor="White"
-                        FontFamily="TimesNewRoman"/>
+                        FontFamily="TimesNewRoman"
+                        Clicked="ClickedQuizButton"/>
+                        
                 <Button Text="Flash Cards"
                         Grid.Row="1"
                         Grid.Column="0" 
                         BackgroundColor="#0769C3"
                         TextColor="White"
-                        FontFamily="TimesNewRoman"/>
+                        FontFamily="TimesNewRoman"
+                        Clicked="ClickedFlashCardButton"/>
+                
                 <Button Text="Resight"
                         Grid.Row="1"
                         Grid.Column="1"
                         BackgroundColor="#0769C3"
                         TextColor="White"
-                        FontFamily="TimesNewRoman"/>
+                        FontFamily="TimesNewRoman"
+                         Clicked="ClickedResightButton"/>
 
                 
             </Grid>
