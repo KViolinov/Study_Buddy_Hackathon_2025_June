@@ -128,7 +128,6 @@ def summarize_youtube_video(youtube_link):
     except Exception as e:
         return f"An error occurred: {e}"
 
-
 recall = False
 user_input = ""
 
@@ -160,6 +159,7 @@ while True:
         continue
 
     user_id = latest["user_id"]
+    input_id = latest["input_id"]
     time_of_sending = latest["time_of_sending"]
     input_type = latest["type"]
     input_source_type = latest["input_source_type"]
@@ -243,6 +243,7 @@ while True:
         "time_of_sending": now_iso,
         "type": input_type,
         "output_text": response_text,
+        'input_id': input_id,
     }
 
     # Insert into the Inputs table
