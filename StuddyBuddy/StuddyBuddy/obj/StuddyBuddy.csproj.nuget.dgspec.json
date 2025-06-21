@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\StuddyBuddy.csproj": {}
+    "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\StuddyBuddy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\StuddyBuddy.csproj": {
+    "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\StuddyBuddy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\StuddyBuddy.csproj",
+        "projectUniqueName": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\StuddyBuddy.csproj",
         "projectName": "StuddyBuddy",
-        "projectPath": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\StuddyBuddy.csproj",
-        "packagesPath": "C:\\Users\\Mert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\obj\\",
+        "projectPath": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\StuddyBuddy.csproj",
+        "packagesPath": "C:\\Users\\Todor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Todor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
