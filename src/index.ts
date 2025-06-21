@@ -6,9 +6,6 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
-setInterval(() => {
-  pollOutputs();
-}, 5000);
 
 // Примерен POST маршрут
 app.post("/api/inputs", async (req, res) => {
@@ -26,7 +23,7 @@ app.post("/api/inputs", async (req, res) => {
   console.log("Received input object:", inputObject);
   const { data, error } = await supabase.from("inputs").insert([
     {
-      user_id: 1, // <- замени с реално ID от Users таблицата
+      user_id: 1,
       time_of_sending: new Date().toISOString(),
       type: "summary",
       input_source_type: "normal text",
@@ -39,6 +36,24 @@ app.post("/api/inputs", async (req, res) => {
     throw new Error(error.message);
   } else {
     res.status(201).json({ message: "Input created successfully", data });
+  }
+});
+
+app.get("/api/output/:input_id", async (req, res) => {
+  const inputId = parseInt(req.params.input_id);
+  const { data, error } = await supabase
+    .from("outputs")
+    .select("*")
+    .eq("input_id", inputId)
+    .limit(1);
+
+  if (error) {
+    console.error("Supabase error:", error);
+    res.status(500).json({ error: "Database error" });
+  } else if (!data || data.length === 0) {
+    res.status(404).json({ error: "Output not found" });
+  } else {
+    res.status(200).json(data![0]);
   }
 });
 
