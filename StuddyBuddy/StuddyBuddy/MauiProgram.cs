@@ -11,6 +11,7 @@ namespace StuddyBuddy
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts =>
                 {
+                    fonts.AddFont("times.ttf", "TimesNewRoman");
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });

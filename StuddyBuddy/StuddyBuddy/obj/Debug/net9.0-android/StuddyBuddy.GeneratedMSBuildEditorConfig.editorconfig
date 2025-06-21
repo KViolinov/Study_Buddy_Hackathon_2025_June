@@ -4,53 +4,51 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net9.0-android
-build_property.TargetFramework = net9.0-android
-build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
-build_property.UsingMicrosoftNETSdkWeb = 
-build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = false
-build_property.InvariantGlobalization = false
-build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property.EnforceExtendedAnalyzerRules = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StuddyBuddy
-build_property.ProjectDir = C:\Users\Mert\Desktop\sketch_apr24a\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\
+build_property.ProjectDir = C:\Users\Todor\Documents\GitHub\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Mert/Desktop/sketch_apr24a/Study_Buddy_Hackathon_2025_June/StuddyBuddy/StuddyBuddy/App.xaml]
+[C:/Users/Todor/Documents/GitHub/Study_Buddy_Hackathon_2025_June/StuddyBuddy/StuddyBuddy/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = StuddyBuddy.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Mert/Desktop/sketch_apr24a/Study_Buddy_Hackathon_2025_June/StuddyBuddy/StuddyBuddy/AppShell.xaml]
+[C:/Users/Todor/Documents/GitHub/Study_Buddy_Hackathon_2025_June/StuddyBuddy/StuddyBuddy/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = StuddyBuddy.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Mert/Desktop/sketch_apr24a/Study_Buddy_Hackathon_2025_June/StuddyBuddy/StuddyBuddy/Pages/MainPage.xaml]
+[C:/Users/Todor/Documents/GitHub/Study_Buddy_Hackathon_2025_June/StuddyBuddy/StuddyBuddy/Pages/InputPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = StuddyBuddy.Pages.InputPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\InputPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\InputPage.xaml
+
+[C:/Users/Todor/Documents/GitHub/Study_Buddy_Hackathon_2025_June/StuddyBuddy/StuddyBuddy/Pages/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = StuddyBuddy.Pages.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\MainPage.xaml
 
-[C:/Users/Mert/Desktop/sketch_apr24a/Study_Buddy_Hackathon_2025_June/StuddyBuddy/StuddyBuddy/Resources/Styles/Colors.xaml]
+[C:/Users/Todor/Documents/GitHub/Study_Buddy_Hackathon_2025_June/StuddyBuddy/StuddyBuddy/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = StuddyBuddy.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Mert/Desktop/sketch_apr24a/Study_Buddy_Hackathon_2025_June/StuddyBuddy/StuddyBuddy/Resources/Styles/Styles.xaml]
+[C:/Users/Todor/Documents/GitHub/Study_Buddy_Hackathon_2025_June/StuddyBuddy/StuddyBuddy/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = StuddyBuddy.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StuddyBuddy.Pages.InputPage"
+             BackgroundColor="Black"
+             Title="InputPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid ColumnDefinitions="Auto, *" ColumnSpacing="0">
+
+               
+                <Image Source="study_buddy_logo.png"
+       WidthRequest="280"
+       HeightRequest="280"
+       Grid.Column="1"
+       Aspect="AspectFit" />
+
+
+               
+            </Grid>
+            
+            
+            
+            
+            
+
+            <Grid ColumnDefinitions="Auto, *" ColumnSpacing="10">
+                <Button Text="+" 
+                    WidthRequest="30"
+                    HeightRequest="30"
+                    CornerRadius="30"
+                    BackgroundColor="#9d6ce6"
+                    TextColor="White"
+                    FontSize="24" />
+                <Entry Placeholder="Enter something..." Grid.Column="1" />
+            </Grid>
+
+            <Grid RowDefinitions="*,*"
+                  ColumnDefinitions="*,*"
+                  RowSpacing="10" 
+                  ColumnSpacing="10"
+                  Padding="10">
+
+                <Button Text="Summary"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        BackgroundColor="#0769C3"
+                        TextColor="White"
+                        FontFamily="TimesNewRoman"/>
+                <Button Text="Quiz"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        BackgroundColor="#0769C3"
+                        TextColor="White"
+                        FontFamily="TimesNewRoman"/>
+                <Button Text="Flash Cards"
+                        Grid.Row="1"
+                        Grid.Column="0" 
+                        BackgroundColor="#0769C3"
+                        TextColor="White"
+                        FontFamily="TimesNewRoman"/>
+                <Button Text="Resight"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        BackgroundColor="#0769C3"
+                        TextColor="White"
+                        FontFamily="TimesNewRoman"/>
+
+                
+            </Grid>
+       
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

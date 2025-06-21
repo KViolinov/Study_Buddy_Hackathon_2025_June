@@ -467,3 +467,15 @@ C:\Users\Mert\Desktop\sketch_apr24a\Study_Buddy_Hackathon_2025_June\StuddyBuddy\
 C:\Users\Mert\Desktop\sketch_apr24a\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\Mert\Desktop\sketch_apr24a\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Mert\Desktop\sketch_apr24a\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Todor\Documents\GitHub\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\StuddyBuddy.csproj.AssemblyReference.cache
+C:\Users\Todor\Documents\GitHub\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+C:\Users\Todor\Documents\GitHub\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+C:\Users\Todor\Documents\GitHub\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+C:\Users\Todor\Documents\GitHub\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+C:\Users\Todor\Documents\GitHub\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+C:\Users\Todor\Documents\GitHub\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+C:\Users\Todor\Documents\GitHub\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+C:\Users\Todor\Documents\GitHub\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+C:\Users\Todor\Documents\GitHub\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+C:\Users\Todor\Documents\GitHub\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+C:\Users\Todor\Documents\GitHub\Study_Buddy_Hackathon_2025_June\StuddyBuddy\StuddyBuddy\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\StuddyBuddy.GeneratedMSBuildEditorConfig.editorconfig
