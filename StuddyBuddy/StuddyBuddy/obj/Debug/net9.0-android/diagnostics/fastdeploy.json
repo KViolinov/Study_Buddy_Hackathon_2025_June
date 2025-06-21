@@ -11,7 +11,11 @@
     "deploy.result": "Success",
     "deploy.supports.fastdev": "True",
     "deploy.systemapp": "False",
+<<<<<<< Updated upstream
     "deploy.duration.ms": "18729",
+=======
+    "deploy.duration.ms": "808",
+>>>>>>> Stashed changes
     "pii.deploy.error": "",
     "pii.deploy.file": ""
   }

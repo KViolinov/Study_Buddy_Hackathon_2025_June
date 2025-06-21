@@ -62,10 +62,16 @@
 
 	<ItemGroup>
 	  <Compile Remove="Pages\NewPage1.xaml.cs" />
+	  <Compile Remove="Pages\NewPage2.xaml.cs" />
+	  <Compile Remove="Pages\Quiz.xaml.cs" />
+	  <Compile Remove="Pages\SummaryPagexaml.xaml.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiXaml Remove="Pages\NewPage1.xaml" />
+	  <MauiXaml Remove="Pages\NewPage2.xaml" />
+	  <MauiXaml Remove="Pages\Quiz.xaml" />
+	  <MauiXaml Remove="Pages\SummaryPagexaml.xaml" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -74,19 +80,28 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Pages\FlashCardPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\InputPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\Quiz.xaml">
+	  <MauiXaml Update="Pages\QuizPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\RegisterPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\ResightPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\SettingsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\SummaryPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

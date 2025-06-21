@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StuddyBuddy.Pages.QuizPage"
+             Title="QuizPage">
+    <VerticalStackLayout>
+        <Label
+         Text="PlaceHolder Question"/>
+        <Grid RowDefinitions="*,*"
+    ColumnDefinitions="*,*"
+    RowSpacing="10" 
+    ColumnSpacing="10"
+    Padding="70">
+
+            <Button Text="Option 1"
+          Grid.Row="0"
+          Grid.Column="0"
+          BackgroundColor="#0769C3"
+          TextColor="White"
+          FontFamily="TimesNewRoman"
+        />
+
+            <Button Text="Option 2"
+          Grid.Row="0"
+          Grid.Column="1"
+          BackgroundColor="#0769C3"
+          TextColor="White"
+          FontFamily="TimesNewRoman"
+      />
+
+            <Button Text="option 3"
+          Grid.Row="1"
+          Grid.Column="0" 
+          BackgroundColor="#0769C3"
+          TextColor="White"
+          FontFamily="TimesNewRoman"
+          />
+
+            <Button Text="Option 4"
+          Grid.Row="1"
+          Grid.Column="1"
+          BackgroundColor="#0769C3"
+          TextColor="White"
+          FontFamily="TimesNewRoman"
+         />
+
+
+        </Grid>
+        </VerticalStackLayout>
+</ContentPage>
