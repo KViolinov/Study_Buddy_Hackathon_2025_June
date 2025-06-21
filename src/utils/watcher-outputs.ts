@@ -1,31 +1,14 @@
 import { supabase } from "./db";
-import axios from "axios";
 
-let lastSeenId = 0;
-
-export async function pollOutputs() {
+export async function pollForOutput(inputId: number) {
   const { data, error } = await supabase
     .from("outputs")
     .select("*")
-    .gt("output_id", lastSeenId) // само новите
-    .order("output_id", { ascending: true });
+    .eq("input_id", inputId)
+    .limit(1);
 
-  if (error) {
-    console.error("Error fetching outputs:", error);
-    return;
-  }
+  if (error) throw new Error(error.message);
+  if (!data || data.length === 0) return null;
 
-  if (data && data.length > 0) {
-    for (const output of data) {
-      try {
-        // await axios.post("https://your-webhook-url.com", output);
-        console.log("Sent output:", output);
-      } catch (err) {
-        console.error("Failed to send output:", err);
-      }
-
-      // обнови lastSeenId
-      lastSeenId = Math.max(lastSeenId, output.output_id);
-    }
-  }
+  return data[0];
 }
