@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="global.css" />
+		<link rel="stylesheet" href="welcome.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -38,7 +39,13 @@
 			</div>
 			<nav>
 				<div class="nav-left">
-					<div><img class="logo" src="public/images/logo.png" /></div>
+					<a href="index.html"
+						><div>
+							<img
+								class="logo"
+								src="public/images/logo.png"
+							/></div
+					></a>
 					<div class="nav-left-text">
 						<a href="#about-us">About Us</a>
 						<a
@@ -48,12 +55,14 @@
 					</div>
 				</div>
 				<div class="nav-right">
-					<button>
-						Log In
-						<div class="arrow-wrapper">
-							<div class="arrow"></div>
-						</div>
-					</button>
+					<a href="login.html">
+						<button>
+							Log In
+							<div class="arrow-wrapper">
+								<div class="arrow"></div>
+							</div>
+						</button>
+					</a>
 				</div>
 			</nav>
 			<main>
@@ -140,10 +149,13 @@
 					</div>
 				</div>
 			</div>
-			<footer>
+		</section>
+		<footer>
+			<div>
 				© 2025 StudyBuddy –
 				<a href="http://kvb-bg.com/BolyarCoders/">Team Bolyar Coders</a>
-			</footer>
-		</section>
+			</div>
+			<img class="logo" src="public/images/logo.png" />
+		</footer>
 	</body>
 </html>

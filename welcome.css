@@ -1,107 +1,5 @@
-* {
-	padding: 0;
-	margin: 0;
-	font-family: "Poppins", sans-serif;
-	font-style: normal;
-	scroll-behavior: smooth;
-}
-
 .container {
 	height: 100vh;
-}
-
-a {
-	color: #fff;
-	font-size: 20px;
-	text-decoration: none;
-}
-nav {
-	padding: 20px 20px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	position: relative;
-	z-index: 10;
-}
-
-.nav-left-text {
-	display: flex;
-	gap: 20px;
-}
-
-.logo {
-	width: 75px;
-}
-
-.nav-left {
-	padding-right: 10px;
-	background-color: #0769c3;
-	box-shadow: 5px 5px 15px;
-	border-radius: 10px;
-	display: flex;
-	gap: 10px;
-	align-items: center;
-}
-
-button {
-	--primary-color: #0769c3;
-	--secondary-color: #fff;
-	--hover-color: #111;
-	--arrow-width: 10px;
-	--arrow-stroke: 2px;
-	box-sizing: border-box;
-	border: 0;
-	border-radius: 20px;
-	color: var(--secondary-color);
-	padding: 1em 1.8em;
-	background: var(--primary-color);
-	display: flex;
-	cursor: pointer;
-	transition: 0.2s background;
-	align-items: center;
-	gap: 0.6em;
-	font-weight: bold;
-}
-
-button .arrow-wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-button .arrow {
-	margin-top: 1px;
-	width: var(--arrow-width);
-	background: var(--primary-color);
-	height: var(--arrow-stroke);
-	position: relative;
-	transition: 0.2s;
-}
-
-button .arrow::before {
-	content: "";
-	box-sizing: border-box;
-	position: absolute;
-	border: solid var(--secondary-color);
-	border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
-	display: inline-block;
-	top: -3px;
-	right: 3px;
-	transition: 0.2s;
-	padding: 3px;
-	transform: rotate(-45deg);
-}
-
-button:hover {
-	background-color: var(--hover-color);
-}
-
-button:hover .arrow {
-	background: var(--secondary-color);
-}
-
-button:hover .arrow:before {
-	right: 0;
 }
 
 main {
@@ -182,7 +80,7 @@ main .main-buttons {
 	position: relative;
 	display: grid;
 	justify-content: center;
-	background-color: #6B89DB;
+	background-color: #6b89db;
 	padding: 20px 20px;
 	min-height: 100vh;
 	z-index: 1;
@@ -212,7 +110,7 @@ main .main-buttons {
 }
 
 .card {
-	background-color: #B5BFDB;
+	background-color: #b5bfdb;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 	overflow: hidden;
@@ -249,13 +147,20 @@ main .main-buttons {
 	font-size: 1rem;
 }
 
-footer{
-    margin-top: 20px;
-    font-size: 20px;
-    color: #333;
+footer {
+	align-items: center;
+	display: flex;
+	padding: 0px 30px;
+	background-color: white;
+	font-size: 20px;
+	color: #333;
 }
 
-footer a{
-    color: #333;
-    text-decoration: underline;
+footer a {
+	color: #333;
+	text-decoration: underline;
+}
+
+footer .logo{
+	padding-left: 1300px;
 }
