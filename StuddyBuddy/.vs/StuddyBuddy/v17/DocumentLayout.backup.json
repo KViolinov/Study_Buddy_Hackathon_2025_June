@@ -3,35 +3,59 @@
   "WorkspaceRootPath": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\pages\\quiz.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\pages\\quiz.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\pages\\quiz.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\pages\\quiz.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\pages\\inputpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\pages\\inputpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\pages\\inputpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\pages\\inputpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Todor\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\pages\\inputpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|solutionrelative:studdybuddy\\pages\\inputpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Todor\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2053624E-94A0-473D-8F7E-416D53165605}|StuddyBuddy\\StuddyBuddy.csproj|c:\\users\\todor\\documents\\github\\study_buddy_hackathon_2025_june\\studdybuddy\\studdybuddy\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,32 +86,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SettingsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\SettingsPage.xaml",
-              "RelativeDocumentMoniker": "StuddyBuddy\\Pages\\SettingsPage.xaml",
-              "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\SettingsPage.xaml",
-              "RelativeToolTip": "StuddyBuddy\\Pages\\SettingsPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Title": "Quiz.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\Quiz.xaml.cs",
+              "RelativeDocumentMoniker": "StuddyBuddy\\Pages\\Quiz.xaml.cs",
+              "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\Quiz.xaml.cs",
+              "RelativeToolTip": "StuddyBuddy\\Pages\\Quiz.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:18:43.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Quiz.xaml",
+              "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\Quiz.xaml",
+              "RelativeDocumentMoniker": "StuddyBuddy\\Pages\\Quiz.xaml",
+              "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\Quiz.xaml*",
+              "RelativeToolTip": "StuddyBuddy\\Pages\\Quiz.xaml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-21T20:16:29.444Z",
+              "WhenOpened": "2025-06-21T21:18:32.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "StuddyBuddy\\AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\AppShell.xaml.cs",
-              "RelativeToolTip": "StuddyBuddy\\AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "StuddyBuddy\\Pages\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "StuddyBuddy\\Pages\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T18:39:01.469Z",
+              "WhenOpened": "2025-06-21T21:09:52.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "StuddyBuddy\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\LoginPage.xaml.cs",
+              "RelativeToolTip": "StuddyBuddy\\Pages\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T21:09:23.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "StuddyBuddy\\Pages\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\RegisterPage.xaml",
+              "RelativeToolTip": "StuddyBuddy\\Pages\\RegisterPage.xaml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-21T20:45:08.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "StuddyBuddy\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "StuddyBuddy\\Pages\\LoginPage.xaml",
+              "ViewState": "AgIAAB0AAAAAAAAAAADgvykAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-21T20:44:14.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\App.xaml.cs",
               "RelativeDocumentMoniker": "StuddyBuddy\\App.xaml.cs",
@@ -99,19 +173,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "InputPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\InputPage.xaml.cs",
               "RelativeDocumentMoniker": "StuddyBuddy\\Pages\\InputPage.xaml.cs",
               "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\InputPage.xaml.cs",
               "RelativeToolTip": "StuddyBuddy\\Pages\\InputPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T18:34:53.64Z"
+              "WhenOpened": "2025-06-21T18:34:53.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\App.xaml",
               "RelativeDocumentMoniker": "StuddyBuddy\\App.xaml",
@@ -119,8 +194,7 @@
               "RelativeToolTip": "StuddyBuddy\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-21T18:32:51.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T18:32:51.39Z"
             },
             {
               "$type": "Document",
@@ -130,14 +204,14 @@
               "RelativeDocumentMoniker": "StuddyBuddy\\Pages\\InputPage.xaml",
               "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\InputPage.xaml",
               "RelativeToolTip": "StuddyBuddy\\Pages\\InputPage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAADgvysAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-21T18:31:37.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\MauiProgram.cs",
               "RelativeDocumentMoniker": "StuddyBuddy\\MauiProgram.cs",
@@ -149,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "StuddyBuddy.csproj",
               "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\StuddyBuddy.csproj",
               "RelativeDocumentMoniker": "StuddyBuddy\\StuddyBuddy.csproj",
@@ -161,33 +235,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\AppShell.xaml",
               "RelativeDocumentMoniker": "StuddyBuddy\\AppShell.xaml",
               "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\AppShell.xaml",
               "RelativeToolTip": "StuddyBuddy\\AppShell.xaml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvw4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-21T18:12:47.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T18:12:47.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\MainPage.xaml",
               "RelativeDocumentMoniker": "StuddyBuddy\\Pages\\MainPage.xaml",
               "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\MainPage.xaml",
               "RelativeToolTip": "StuddyBuddy\\Pages\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-21T17:56:43.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T17:56:43.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "StuddyBuddy\\Pages\\SettingsPage.xaml",
+              "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\SettingsPage.xaml",
+              "RelativeToolTip": "StuddyBuddy\\Pages\\SettingsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-21T20:16:29.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "StuddyBuddy\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\AppShell.xaml.cs",
+              "RelativeToolTip": "StuddyBuddy\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T18:39:01.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Microsoft.Maui.Resizetizer.After.targets",
               "DocumentMoniker": "C:\\Users\\Todor\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.51\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
@@ -199,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Todor\\Documents\\GitHub\\Study_Buddy_Hackathon_2025_June\\StuddyBuddy\\StuddyBuddy\\Pages\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "StuddyBuddy\\Pages\\MainPage.xaml.cs",
