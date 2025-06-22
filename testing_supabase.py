@@ -128,8 +128,8 @@ chat = model.start_chat(history=[{"role": "user", "parts": [system_instruction]}
 #     except Exception as e:
 #         return f"An error occurred: {e}"
 
-recall = False
-user_input = ""
+#recall = False
+#user_input = ""
 
 last_time_of_sending = None
 
@@ -204,7 +204,7 @@ while True:
 
     match input_type:
         case "quiz":
-            recall = False
+            #recall = False
             initial_command = ("Create a quiz in JSON format: following"
                                "this strict model format-> your json has to have similar format like this one about quiz:"
                                "public class Quiz {"
@@ -212,14 +212,24 @@ while True:
                                "public string CorrectAnswer { get; set; }"
                                "public List<string> Options { get; set; }")
 
-        case "flash cards":
-            recall = False
-            initial_command = "Create flash cards based on the following text in JSON format: "
+        case "flashcards":  # 🟢 fixed
+            initial_command = (
+                "Create flashcards in JSON format following this strict model format -> your JSON has to match the structure of the following C# classes: "
+                "public class FlashcardsCollection { "
+                "[JsonPropertyName(\"flashcards\")] "
+                "public List<FlashcardItem> Flashcards { get; set; } "
+                "} "
+                "public class FlashcardItem { "
+                "[JsonPropertyName(\"question\")] "
+                "public string Question { get; set; } "
+                "[JsonPropertyName(\"answer\")] "
+                "public string Answer { get; set; } "
+                "} "
+                "Make sure to return valid and parseable JSON."
+            )
 
         case "summary":
-            recall = False
-            initial_command = ("Create a summarycase summary")
-            recall = False
+            #recall = False
             initial_command = ("Create a summary of the following text/youtube link in JSON format:"
             "The returned json should be in this format:"
             "public class Summary {"
@@ -231,19 +241,19 @@ while True:
             "public string summary { get; set; }"
             "public string[] keywords { get; set; }")
 
-        case "recall":
-            recall = True
-            initial_command = ("I am going to give you two texts, the first is going to be the lesson, "
-                               "and the second on is what i have learned. "
-                               "i need you to compare the second one to the first one "
-                               "and give a percentage of how much of the lesson i have remembered with tips to improve, but without summary or flashcards"
-                               "All of this needs to be in JSON format: ")
-            recall_what_i_have_learned = input("Enter what have you learned - ")
+        # case "recall":
+        #     recall = True
+        #     initial_command = ("I am going to give you two texts, the first is going to be the lesson, "
+        #                        "and the second on is what i have learned. "
+        #                        "i need you to compare the second one to the first one "
+        #                        "and give a percentage of how much of the lesson i have remembered with tips to improve, but without summary or flashcards"
+        #                        "All of this needs to be in JSON format: ")
+        #     recall_what_i_have_learned = input("Enter what have you learned - ")
 
-    if recall:
-        send_to_model = initial_command + user_input + ", and the second one: " + recall_what_i_have_learned
-    else:
-        send_to_model = initial_command + user_input
+    # if recall:
+    #     send_to_model = initial_command + user_input + ", and the second one: " + recall_what_i_have_learned
+    # else:
+    send_to_model = initial_command + user_input
 
     result = chat.send_message({"parts": [send_to_model]})
     response_text = result.text
