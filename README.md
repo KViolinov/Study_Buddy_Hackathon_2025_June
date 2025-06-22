@@ -1,16 +1,36 @@
-##Study Buddy App
+# 📚 Study Buddy
 
-📚 Study Buddy is an AI-powered learning assistant that transforms any text into personalized study materials like summaries, flashcards, and quizzes. Designed to boost comprehension and retention, it simplifies studying and helps students prepare more effectively in less time.
+**Study Buddy** is an AI-powered learning assistant that transforms any text into personalized study materials such as **summaries**, **flashcards**, and **quizzes**. Designed to boost comprehension and retention, Study Buddy helps students study smarter—not harder.
 
-🎯 Goals
-Efficient Learning – Instantly generate summaries, flashcards, or quizzes from any text.
+---
 
-User-Friendly Interface – Intuitive design for quick and easy access on any device.
+## 🎯 Goals
 
-Personalized Study Tools – Adaptive content tailored to the user’s focus and needs.
+- **Efficient Learning**  
+  Instantly generate summaries, flashcards, or quizzes from any text to save time and focus on what matters most.
 
-🔥 Conclusion
-Study Buddy redefines the way students study by turning passive reading into active learning. With intelligent text processing and versatile outputs, it enhances understanding, saves time, and keeps learners engaged. Future updates will include collaborative features, performance tracking, and deeper AI personalization.
+- **User-Friendly Interface**  
+  A clean and intuitive design optimized for quick and easy access on any device—desktop, tablet, or mobile.
 
-🏷️ License
-© 2025 Study Buddy. All rights reserved.
+- **Personalized Study Tools**  
+  Adaptive content tailored to the user's focus, subject, and goals.
+
+---
+
+## 🔥 Conclusion
+
+**Study Buddy** redefines how students study by transforming passive reading into **active learning**. With intelligent text processing and versatile outputs, it enhances understanding, boosts retention, and keeps learners engaged.  
+
+🌟 *Coming Soon*:  
+- Collaborative study features  
+- AI-based performance tracking  
+- Deeper content personalization and learning suggestions
+
+---
+
+## 🏷️ License
+
+© 2025 Study Buddy. All rights reserved.  
+This project is licensed under a proprietary license. For personal or educational use only. Contact us for commercial or extended use.
+
+---
