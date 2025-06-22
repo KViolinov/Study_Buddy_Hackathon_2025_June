@@ -16,6 +16,7 @@
                    Margin="0,0,0,50"/>
            
             <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="5">
+             
                 <!-- Left "+" Button -->
                 <Button Text="+" 
             WidthRequest="40"
@@ -41,7 +42,7 @@
                     <Grid ColumnDefinitions="*,Auto">
                         <Entry x:Name="TextEntryTxt" 
                             Placeholder="Enter something..."
-                   FontFamily="TimesNewRoman"
+                   FontFamily="Poppins"
                    TextColor="Black"
                    FontAttributes="Bold"
                    BackgroundColor="Transparent"
@@ -62,12 +63,37 @@
                             Clicked="Button_Clicked_1"/>
                     </Grid>
                 </Frame>
+                
             </Grid>
+            <Frame x:Name="SelectPanel"
+       IsVisible="False"
+       CornerRadius="15"
+       BackgroundColor="Black"
+       Padding="10"
+       Margin="10"
+       HasShadow="False">
+                <StackLayout Spacing="10">
+                    <Label Text="Select an option:" FontAttributes="Bold" FontSize="18"/>
+                    <Button Text="Upload Word/PowerPoint files" 
+                             BackgroundColor="#0769C3"
+                             TextColor="White"
+    FontFamily="Poppins" Clicked="Button_Clicked_2"/>
+                    <Button Text="Upload PDF file"
+                             BackgroundColor="#0769C3"
+                             TextColor="White"
+    FontFamily="Poppins" Clicked="Button_Clicked_2"/>
+                    <Button Text="Upload YouTube video link" 
+                             BackgroundColor="#0769C3"
+                            TextColor="White"
+                               FontFamily="Poppins" Clicked="Button_Clicked_2"
+                            />
+                </StackLayout>
+            </Frame>
             <Label
                     Text="Choose option:"
                     TextColor="Black"
                 Margin="20,20,0,10"
-                FontFamily="TimesNewRoman"
+                 FontFamily="Poppins"
            
                 FontSize="20"/>
             <Grid RowDefinitions="*,*"
@@ -84,7 +110,7 @@
                         BackgroundColor="#0769C3"
                         TextColor="White"
                         CornerRadius="13"
-                        FontFamily="TimesNewRoman"
+                         FontFamily="Poppins"
                         Clicked="ClickedSummaryButton"/>
 
                 <Button Text="Quiz"
@@ -95,7 +121,7 @@
                         BackgroundColor="#0769C3"
                         TextColor="White"
                           CornerRadius="13"
-                        FontFamily="TimesNewRoman"
+                        FontFamily="Poppins"
                         Clicked="ClickedQuizButton"/>
                 
 
@@ -106,7 +132,7 @@
                          FontSize="20"
                         BackgroundColor="#0769C3"
                         TextColor="White"
-                        FontFamily="TimesNewRoman"
+                          FontFamily="Poppins"
                           CornerRadius="13"
                         Clicked="ClickedFlashCardButton"/>
 
@@ -118,7 +144,7 @@
                         BackgroundColor="#808080"
                         TextColor="White"
                           CornerRadius="13"
-                        FontFamily="TimesNewRoman"
+                         FontFamily="Poppins"
                         Clicked="ClickedResightButton"/>
 
 

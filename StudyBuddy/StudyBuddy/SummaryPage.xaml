@@ -19,7 +19,7 @@
 
         <!-- Main content (expands to take space) -->
         <ScrollView Grid.Row="1">
-            <Label 
+            <Label x:Name="TestResultTxt"
                 Text="Placeholder text gfsdg dfmg kdfkg dfk gkdfk gkdfk gkdfk gkdfk gkdfk gdfkg kdfkgkdfghkdfjhd fjhdfjh"
                 VerticalOptions="Start" 
                     TextColor="Black"

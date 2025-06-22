@@ -10,9 +10,9 @@ public partial class QuizPage : ContentPage
 	public int points {  get; set; }
     public string correctAns { get; set; }
     public int counter { get; set; } = 0;
-    public QuizModel _questions { get; set; }
+    public List<Quiz> _questions { get; set; }
 
-    public QuizPage(QuizModel questions)
+    public QuizPage(List<Quiz> questions)
     {
         InitializeComponent();
         _questions = questions;
@@ -21,7 +21,7 @@ public partial class QuizPage : ContentPage
 
     public async Task Question()
 	{
-        List<Quiz> questionsForThePage = _questions.Quiz.ToList();
+        List<Quiz> questionsForThePage = _questions;
 
         if (questionsForThePage.Count > 0 && questionsForThePage.Count > counter)
         {

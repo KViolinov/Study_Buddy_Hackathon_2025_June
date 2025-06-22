@@ -8,7 +8,7 @@
     <ScrollView>
         <VerticalStackLayout
             Padding="0,50,0,0"
-            Spacing="5">
+            Spacing="0">
 
 
             <Label
@@ -17,7 +17,8 @@
                 VerticalOptions="Center" 
                 HorizontalOptions="Center"
                 FontSize="55"
-                 FontFamily="TimesNewRoman"
+             
+                   FontFamily="Poppins"
                 FontAttributes="Bold"
                 />
             <Label
@@ -25,7 +26,7 @@
                 VerticalOptions="Center" 
                 TextColor="Black"
                 HorizontalOptions="Center"
-                  FontFamily="TimesNewRoman"
+                   FontFamily="Poppins"
                 FontSize="35"
                  FontAttributes="Bold"/>
 
@@ -34,7 +35,7 @@
                 Text="Study Buddy"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center"
-                  FontFamily="TimesNewRoman"
+                  FontFamily="Poppins"
                 FontSize="55"
                 Margin="0,0,0,30"
                  FontAttributes="Bold"
@@ -42,15 +43,15 @@
             <Label
     Text="Study Buddy helps you master any subject by creating quizzes, summaries, and flashcards tailored just for you. It also helps you review and reinforce what you’ve learned, making study sessions faster and more effective. With Study Buddy, learning becomes easy, fun, and personalized!" 
     FontSize="20"
-    FontFamily="TimesNewRoman"
+       FontFamily="Poppins"
     Padding="20,0,20,0"
     TextColor="Black"
     HorizontalTextAlignment="Center"
                 HorizontalOptions="Center"
-                Margin="0,0,0,50"/>
+                Margin="0,0,0,30"/>
 
             <Button 
-                 Text="Get Started"
+                 Text="Visit our souce code"
                  Grid.Row="2"
                  HorizontalOptions="Fill"
                  VerticalOptions="End"
@@ -60,7 +61,8 @@
                  FontAttributes="Bold"
                  WidthRequest="300"
                 CornerRadius="20"
-                 Padding="20,20,20,20"/>    
+                 Padding="20,20,20,20"
+                Clicked="OnCounterClicked"/>    
 
 
 

@@ -39,7 +39,7 @@
                       BackgroundColor="#0769C3"
                       TextColor="White"
                       LineBreakMode="WordWrap"
-                      FontFamily="TimesNewRoman"
+                        FontFamily="Poppins"
                       Clicked="Option_1_Clicked"
         />
 
@@ -51,7 +51,7 @@
                       BackgroundColor="#0769C3"
                       CornerRadius="20"
                       TextColor="White"
-                      FontFamily="TimesNewRoman"
+                      FontFamily="Poppins"
                       Clicked="Option_2_Clicked"
       />
 
@@ -64,7 +64,7 @@
                       Padding="50,50,50,50"
                       CornerRadius="20"
                       TextColor="White"
-                      FontFamily="TimesNewRoman"
+                        FontFamily="Poppins"
                       Clicked="Option_3_Clicked"
           />
 
@@ -76,7 +76,7 @@
                       BackgroundColor="#0769C3"
                       TextColor="White"
                       CornerRadius="20"
-                      FontFamily="TimesNewRoman"
+                        FontFamily="Poppins"
                       Clicked="Option_4_Clicked"
          />
 

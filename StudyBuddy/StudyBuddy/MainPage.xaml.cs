@@ -1,4 +1,6 @@
-﻿namespace StudyBuddy
+﻿using System.Threading.Tasks;
+
+namespace StudyBuddy
 {
     public partial class MainPage : ContentPage
     {
@@ -8,9 +10,10 @@
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private async void OnCounterClicked(object sender, EventArgs e)
         {
-        
+            string url = "https://kvb-bg.com/Study_Buddy/";
+            await Launcher.OpenAsync(url);
         }
     }
 

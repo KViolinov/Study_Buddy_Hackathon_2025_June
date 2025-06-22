@@ -21,6 +21,7 @@ namespace StudyBuddy.Data
         {
             var url = "https://study-buddy-hackathon-2025-june.onrender.com/api/inputs";
 
+            //Test model 
             //input = new InputModel
             //{
             //    userId = 1,
@@ -53,97 +54,17 @@ namespace StudyBuddy.Data
                     else if (output.data.type == "flashcards")
                     {
                         // Try to parse as FlashcardsCollection
-                        try
-                        {
-                            var flashcardsCollection = JsonSerializer.Deserialize<FlashcardsCollection>(cleaned);
-                            if (flashcardsCollection != null && flashcardsCollection.Flashcards?.Count > 0)
-                            {
-                                var allAnswers = flashcardsCollection.Flashcards
-                                    .Select(f => f.Answer)
-                                    .Where(a => !string.IsNullOrEmpty(a))
-                                    .Distinct()
-                                    .ToList();
-
-                                var result = new List<Quiz>();
-
-                                foreach (var item in flashcardsCollection.Flashcards)
-                                {
-                                    var correct = item.Answer;
-                                    var options = allAnswers
-                                        .Where(a => a != correct)
-                                        .OrderBy(_ => Guid.NewGuid())
-                                        .Take(3)
-                                        .ToList();
-
-                                    options.Add(correct);
-                                    options = options.OrderBy(_ => Guid.NewGuid()).ToList();
-
-                                    result.Add(new Quiz
-                                    {
-                                        Question = item.Question,
-                                        CorrectAnswer = correct,
-                                        Options = options
-                                    });
-                                }
-
-                                output.data.parsed_object = result;
-                                return output;
-                            }
-                        }
-                        catch
-                        {
-                            // ignored - try manual fallback
-                        }
-
-                        // Manual fallback using JsonDocument parsing
-                        try
-                        {
-                            using var doc = JsonDocument.Parse(cleaned);
-                            var root = doc.RootElement;
-                            var flashcards = root.GetProperty("flashcards");
-
-                            var allAnswers = flashcards.EnumerateArray()
-                                .Select(f => f.GetProperty("answer").GetString())
-                                .Where(a => !string.IsNullOrEmpty(a))
-                                .Distinct()
-                                .ToList();
-
-                            var result = new List<Quiz>();
-
-                            foreach (var item in flashcards.EnumerateArray())
-                            {
-                                var question = item.GetProperty("question").GetString();
-                                var correct = item.GetProperty("answer").GetString();
-
-                                var options = allAnswers
-                                    .Where(a => a != correct)
-                                    .OrderBy(_ => Guid.NewGuid())
-                                    .Take(3)
-                                    .ToList();
-
-                                options.Add(correct);
-                                options = options.OrderBy(_ => Guid.NewGuid()).ToList();
-
-                                result.Add(new Quiz
-                                {
-                                    Question = question,
-                                    CorrectAnswer = correct,
-                                    Options = options
-                                });
-                            }
-
-                            output.data.parsed_object = result;
-                        }
-                        catch
-                        {
-                            // leave raw if parsing fails
-                        }
+                        var flashcardsCollection = JsonSerializer.Deserialize<FlashcardsCollection>(cleaned);
+                        output.data.parsed_object = flashcardsCollection;
+                        return output;
+                           
                     }
+
                     else if (output.data.type == "quiz")
                     {
                         try
                         {
-                            QuizModel model = JsonSerializer.Deserialize<QuizModel>(cleaned);
+                            List<Quiz> model = JsonSerializer.Deserialize<List<Quiz>>(cleaned);
 
                             if (model != null)
                             {
@@ -154,17 +75,17 @@ namespace StudyBuddy.Data
                         }
                         catch
                         {
-                            // leave raw if parsing fails
+                            // raw if parsing fails
                         }
                     }
                     else
                     {
-                        // If type is unknown, leave output_text raw
+                        // If type is unknown, => output_text raw
                     }
                 }
                 catch
                 {
-                    // leave raw if top-level parsing fails
+                    // raw if top-level parsing fails
                 }
             }
 
@@ -174,4 +95,7 @@ namespace StudyBuddy.Data
 
 
     }
+
 }
+
+//TODO: Error handlings!! (If there is ny time left)
