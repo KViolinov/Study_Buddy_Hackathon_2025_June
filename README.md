@@ -32,13 +32,6 @@ Prerequisites
 
 Visual Studio 2022+ with MAUI workloads
 
-Run Locally
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/StudyBuddy.git
-cd StudyBuddy
-dotnet build
 Use Visual Studio to deploy to emulator or device.
 
 ✨ Future Enhancements
