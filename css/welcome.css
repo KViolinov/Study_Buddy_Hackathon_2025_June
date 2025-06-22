@@ -150,7 +150,7 @@ main .main-buttons {
 footer {
 	align-items: center;
 	display: flex;
-	padding: 0px 30px;
+	padding: 20px 30px;
 	background-color: white;
 	font-size: 20px;
 	color: #333;
@@ -161,6 +161,32 @@ footer a {
 	text-decoration: underline;
 }
 
-footer .logo{
-	padding-left: 1300px;
+footer .logo {
+	margin: 20px 20px;
+	position: absolute;
+	right: 0;
+}
+
+@media screen and (max-width: 1200px) {
+	main {
+		width: 100%;
+	}
+	main h2 {
+		text-align: center;
+		font-size: 32pt;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	a {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 550px) {
+	footer {
+		font-size: 12pt;
+	}
+	footer a {
+		font-size: 12pt;
+	}
 }

@@ -1,0 +1,168 @@
+:root {
+	--color-bg-form: #b5bfdb;
+	--color-gradient-1: #e81cff;
+	--color-gradient-2: #40c9ff;
+
+	--color-label: #717171;
+	--color-border: #414141;
+	--color-text-white: #fff;
+	--color-text-black: #000;
+	--color-bg-dark: #313131;
+
+	--color-hover-bg: #fff;
+	--color-hover-text: #313131;
+
+	--color-disabled-bg: #555;
+	--color-disabled-text: #aaa;
+	--color-disabled-border: #666;
+}
+
+.dashboard {
+	display: flex;
+	justify-content: center;
+}
+
+.dashboard .form-container {
+    margin-top: 100px;
+	width: 400px;
+	background: linear-gradient(var(--color-bg-form), var(--color-bg-form))
+			padding-box,
+		linear-gradient(
+				145deg,
+				transparent 35%,
+				var(--color-gradient-1),
+				var(--color-gradient-2)
+			)
+			border-box;
+	border: 2px solid transparent;
+	padding: 32px 24px;
+	font-size: 14px;
+	font-family: inherit;
+	color: var(--color-text-white);
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	box-sizing: border-box;
+	border-radius: 16px;
+	box-shadow: 5px 5px 15px;
+}
+
+.dashboard .form-container button:active {
+	scale: 0.95;
+}
+
+.dashboard .form-container .form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.dashboard .form-container .form-group {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.dashboard .form-container .form-group label {
+	display: block;
+	margin-bottom: 5px;
+	color: var(--color-label);
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.dashboard .form-container .form-group input {
+	padding: 12px 16px;
+	border-radius: 8px;
+	color: var(--color-text-white);
+	font-family: inherit;
+	background-color: transparent;
+	border: 1px solid var(--color-border);
+}
+
+.dashboard .form-container .form-group textarea {
+	padding: 12px 16px;
+	border-radius: 8px;
+	resize: none;
+	color: var(--color-text-white);
+	height: 96px;
+	border: 1px solid var(--color-border);
+	background-color: transparent;
+	font-family: inherit;
+}
+
+.dashboard .form-container .form-group input::placeholder {
+	opacity: 0.5;
+}
+
+.dashboard .form-container .form-group input:focus {
+	outline: none;
+	border-color: var(--color-gradient-1);
+}
+
+.dashboard .form-container .form-group textarea:focus {
+	outline: none;
+	border-color: var(--color-gradient-1);
+}
+
+.dashboard .form-container .form-submit-btn {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	align-self: flex-start;
+	font-family: inherit;
+	color: var(--color-label);
+	font-weight: 600;
+	width: 40%;
+	background: var(--color-bg-dark);
+	border: 1px solid var(--color-border);
+	padding: 12px 16px;
+	font-size: inherit;
+	gap: 8px;
+	margin-top: 8px;
+	cursor: pointer;
+	border-radius: 6px;
+}
+
+.dashboard .form-container .form-submit-btn:hover {
+	background-color: var(--color-hover-bg);
+	border-color: var(--color-hover-bg);
+}
+
+.dashboard .form-container .mode-select {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.dashboard .form-container .mode-btn {
+	flex: 1;
+	padding: 10px;
+	border: 1px solid var(--color-border);
+	background-color: var(--color-bg-dark);
+	color: var(--color-text-white);
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.dashboard .form-container .mode-btn:hover:not(.disabled) {
+	background-color: var(--color-hover-bg);
+	color: var(--color-hover-text);
+	border-color: var(--color-hover-bg);
+}
+
+.dashboard .form-container .mode-btn.active {
+	background-color: var(--color-gradient-2);
+	color: var(--color-text-black);
+	border-color: var(--color-gradient-2);
+}
+
+.dashboard .form-container .mode-btn.disabled {
+	background-color: var(--color-disabled-bg);
+	color: var(--color-disabled-text);
+	cursor: not-allowed;
+	border: 1px dashed var(--color-disabled-border);
+}
