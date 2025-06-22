@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudyBuddy.SettingsPage"
+             BackgroundColor="White"
+             Title="SettingsPage">
+    <VerticalStackLayout>
+        <Label
+     Text="Settings"
+     VerticalOptions="Center" 
+     HorizontalOptions="Center"
+     FontSize="35"
+     TextColor="Black"
+     FontAttributes="Bold"
+            
+    Margin="0,20,0,20"
+     Grid.Row="0"/>
+
+
+        <Grid ColumnDefinitions="30,Auto, *" Padding="10" VerticalOptions="Center">
+            <Image
+                Source="language.png"
+           WidthRequest="20"
+           HeightRequest="20"
+           VerticalOptions="Center"
+           Grid.Column="0" />
+            <Label Text="Select Language:" 
+           VerticalOptions="Center" 
+           FontSize="24" 
+                   TextColor="Black"
+           Grid.Column="1" />
+
+            <Picker Title="Choose one" 
+            FontSize="24" 
+                    TextColor="Black"
+            Grid.Column="2">
+                <Picker.Items>
+                    <x:String>English</x:String>
+                    <x:String>French</x:String>
+                   
+                </Picker.Items>
+            </Picker>
+        </Grid>
+
+        <Grid ColumnDefinitions="30,Auto, *" Padding="10" VerticalOptions="Center">
+            <Image
+         Source="theme.png"
+    WidthRequest="20"
+    HeightRequest="20"
+    VerticalOptions="Center"
+    Grid.Column="0" />
+            <Label Text="Change theme:" 
+    VerticalOptions="Center" 
+    FontSize="24" 
+            TextColor="Black"
+    Grid.Column="1" />
+
+            <Picker Title="Choose one" 
+     FontSize="24" 
+             TextColor="Black"
+     Grid.Column="2">
+                <Picker.Items>
+                    <x:String>Dark</x:String>
+                    <x:String>Light</x:String>
+
+                </Picker.Items>
+            </Picker>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

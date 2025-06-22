@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudyBuddy.InputPage"
+             BackgroundColor="#f9f9f9"
+             Title="InputPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Image Source="study_buddy_logo.png"
+       WidthRequest="280"
+       HeightRequest="280"
+       Grid.Column="1"
+       Aspect="AspectFit" 
+                   Margin="0,0,0,50"/>
+           
+            <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="5">
+                <!-- Left "+" Button -->
+                <Button Text="+" 
+            WidthRequest="40"
+            HeightRequest="40"
+            CornerRadius="20"
+            BackgroundColor="#9d6ce6"
+            TextColor="White"
+            FontSize="24"
+            Grid.Column="0" 
+            Padding="0,0,0,0"
+                        Margin="10,0,0,0"
+                       
+            Clicked="Button_Clicked"/>
+
+                <!-- Frame with Entry and Right Button Inside -->
+                <Frame Grid.Column="1"
+           CornerRadius="13"
+           HasShadow="False"
+           BackgroundColor="White"
+           Padding="10,5"
+                       WidthRequest="325"
+           VerticalOptions="Center">
+                    <Grid ColumnDefinitions="*,Auto">
+                        <Entry x:Name="TextEntryTxt" 
+                            Placeholder="Enter something..."
+                   FontFamily="TimesNewRoman"
+                   TextColor="Black"
+                   FontAttributes="Bold"
+                   BackgroundColor="Transparent"
+                   Grid.Column="0" />
+
+                        <Button 
+                Text="↑"
+                FontSize="20"
+                Grid.Column="1"
+                BackgroundColor="#9d6ce6"
+                TextColor="White"
+                CornerRadius="6"
+                Padding="10,0"
+                HeightRequest="30"
+                WidthRequest="40"
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                            Clicked="Button_Clicked_1"/>
+                    </Grid>
+                </Frame>
+            </Grid>
+            <Label
+                    Text="Choose option:"
+                    TextColor="Black"
+                Margin="20,20,0,10"
+                FontFamily="TimesNewRoman"
+           
+                FontSize="20"/>
+            <Grid RowDefinitions="*,*"
+                  ColumnDefinitions="*,*"
+                  RowSpacing="10" 
+                  ColumnSpacing="10"
+                  Padding="10">
+
+                <Button Text="Summary"
+                        x:Name="SummaryBtn"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        FontSize="20"
+                        BackgroundColor="#0769C3"
+                        TextColor="White"
+                        CornerRadius="13"
+                        FontFamily="TimesNewRoman"
+                        Clicked="ClickedSummaryButton"/>
+
+                <Button Text="Quiz"
+                        x:Name="QuizBtn"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                         FontSize="20"
+                        BackgroundColor="#0769C3"
+                        TextColor="White"
+                          CornerRadius="13"
+                        FontFamily="TimesNewRoman"
+                        Clicked="ClickedQuizButton"/>
+                
+
+                <Button Text="Flash Cards"
+                        x:Name="FlashCardsBtn"
+                        Grid.Row="1"
+                        Grid.Column="0" 
+                         FontSize="20"
+                        BackgroundColor="#0769C3"
+                        TextColor="White"
+                        FontFamily="TimesNewRoman"
+                          CornerRadius="13"
+                        Clicked="ClickedFlashCardButton"/>
+
+                <Button Text="Resight"
+                        x:Name="ResightBtn"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                         FontSize="20"
+                        BackgroundColor="#808080"
+                        TextColor="White"
+                          CornerRadius="13"
+                        FontFamily="TimesNewRoman"
+                        Clicked="ClickedResightButton"/>
+
+
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

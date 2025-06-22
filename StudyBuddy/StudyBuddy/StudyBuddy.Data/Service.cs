@@ -21,10 +21,10 @@ namespace StudyBuddy.Data
         {
             var url = "https://study-buddy-hackathon-2025-june.onrender.com/api/inputs";
 
-            //var input = new InputModel
+            //input = new InputModel
             //{
             //    userId = 1,
-            //    type = "flashcards",
+            //    type = "quiz",
             //    inputSourceType = "docx",
             //    inputText = "NEW NEW NEW TEXT"
             //};
@@ -38,7 +38,7 @@ namespace StudyBuddy.Data
             var responseBody = await response.Content.ReadAsStringAsync();
 
             var output = JsonSerializer.Deserialize<OutputModel>(responseBody);
-
+            Console.WriteLine(output);
             if (output?.data?.output_text is string raw)
             {
                 try
@@ -143,11 +143,14 @@ namespace StudyBuddy.Data
                     {
                         try
                         {
-                            QuizModel? quizModel = JsonSerializer.Deserialize<QuizModel>(cleaned);
-                            if (quizModel != null)
+                            QuizModel model = JsonSerializer.Deserialize<QuizModel>(cleaned);
+
+                            if (model != null)
                             {
-                                output.data.parsed_object = quizModel;
+                                output.data.parsed_object = model;
                             }
+
+                            //output.data.parsed_object = model;
                         }
                         catch
                         {

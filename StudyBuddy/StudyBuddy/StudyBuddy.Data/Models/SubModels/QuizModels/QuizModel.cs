@@ -10,10 +10,7 @@ namespace StudyBuddy.Data.Models.SubModels.QuizModels
 {
     public class QuizModel
     {
-        [JsonPropertyName("quizTitle")]
-        public string QuizTitle { get; set; }
-
-        [JsonPropertyName("questions")]
-        public List<QuizQuestion> Questions { get; set; }
+        [JsonPropertyName("quiz")]
+        public List<Quiz.Quiz> Quiz { get; set; }
     }
 }

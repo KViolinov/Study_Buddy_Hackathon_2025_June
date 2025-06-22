@@ -9,13 +9,10 @@ namespace StudyBuddy.Data.Models.SubModels.Quiz
 {
     public class Quiz
     {
-        [JsonPropertyName("question")]
         public string Question { get; set; }
 
-        [JsonIgnore] // Don't serialize
         public string CorrectAnswer { get; set; }
 
-        [JsonPropertyName("options")]
         public List<string> Options { get; set; }
     }
 }
