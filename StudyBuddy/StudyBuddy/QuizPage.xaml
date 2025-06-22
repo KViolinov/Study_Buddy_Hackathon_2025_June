@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudyBuddy.QuizPage"
+             BackgroundColor="White"
+             Title="QuizPage">
+    <VerticalStackLayout>
+        <Label
+    Text="Summary"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center"
+    FontSize="35"
+    TextColor="Black"
+    FontAttributes="Bold"
+    Margin="0,20,0,20"
+    Grid.Row="0"/>
+
+      
+        
+        <Label x:Name="QuestionLabel"
+         Text="PlaceHolder Question"
+               TextColor="Black"
+               FontSize="25"
+               Margin="20,0,20,0"
+               />
+        <Grid RowDefinitions="*,*,*,*"
+  
+    RowSpacing="10" 
+              Margin="10,50,10,0">
+            
+
+            <Button x:Name="Option_1"
+                      Text="Option 1"
+                      Grid.Row="0"
+                  
+                      CornerRadius="20"
+                      Padding="50"
+                      FontSize="20"
+                      BackgroundColor="#0769C3"
+                      TextColor="White"
+                      LineBreakMode="WordWrap"
+                        FontFamily="Poppins"
+                      Clicked="Option_1_Clicked"
+        />
+
+            <Button x:Name="Option_2"
+                      Text="Option 2"
+                      Grid.Row="2"
+                      FontSize="20"
+                    Padding="50,50,50,50"
+                      BackgroundColor="#0769C3"
+                      CornerRadius="20"
+                      TextColor="White"
+                      FontFamily="Poppins"
+                      Clicked="Option_2_Clicked"
+      />
+
+            <Button x:Name="Option_3"
+                      Text="option 3"
+                      Grid.Row="1"
+                      FontSize="20"
+                  
+                      BackgroundColor="#0769C3"
+                      Padding="50,50,50,50"
+                      CornerRadius="20"
+                      TextColor="White"
+                        FontFamily="Poppins"
+                      Clicked="Option_3_Clicked"
+          />
+
+            <Button x:Name="Option_4"
+                      Text="Option 4"
+                      Grid.Row="3"
+                      FontSize="20"
+   Padding="50,50,50,50"
+                      BackgroundColor="#0769C3"
+                      TextColor="White"
+                      CornerRadius="20"
+                        FontFamily="Poppins"
+                      Clicked="Option_4_Clicked"
+         />
+
+
+        </Grid>
+        <Label x:Name="Points" TextColor="Black"></Label>
+    </VerticalStackLayout>
+</ContentPage>

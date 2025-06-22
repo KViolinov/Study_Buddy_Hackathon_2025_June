@@ -1,0 +1,565 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\studybuddy.data\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\studybuddy.data\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\inputpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\inputpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\flashcardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\flashcardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\studybuddy.data\\models\\submodels\\summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\studybuddy.data\\models\\submodels\\summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\quizpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\quizpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\inputpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\inputpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\quizpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\quizpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\flashcardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\flashcardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\summarypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\summarypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\studybuddy.data\\models\\outputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\studybuddy.data\\models\\outputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\studybuddy.data\\models\\submodels\\flashcardmodels\\flashcarditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\studybuddy.data\\models\\submodels\\flashcardmodels\\flashcarditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\studybuddy.data\\models\\submodels\\flashcardmodels\\flashcardscollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\studybuddy.data\\models\\submodels\\flashcardmodels\\flashcardscollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\summarypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\summarypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\studybuddy.data\\models\\outputdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\studybuddy.data\\models\\outputdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\studybuddy.data\\models\\submodels\\quizmodels\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\studybuddy.data\\models\\submodels\\quizmodels\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\studybuddy.data\\models\\submodels\\quizmodels\\quizmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\studybuddy.data\\models\\submodels\\quizmodels\\quizmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\studybuddy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\studybuddy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\studybuddy.data\\models\\submodels\\quizmodels\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\studybuddy.data\\models\\submodels\\quizmodels\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\studybuddy.data\\models\\submodels\\quizmodels\\quizoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\studybuddy.data\\models\\submodels\\quizmodels\\quizoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|c:\\users\\mert\\desktop\\sketch_apr24a\\study_buddy_hackathon_2025_june\\studybuddy\\studybuddy\\studybuddy.data\\models\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEFC284-6402-43D0-8A12-D0D2C491F7A2}|StudyBuddy\\StudyBuddy.csproj|solutionrelative:studybuddy\\studybuddy.data\\models\\inputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mert\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mert\\Desktop\\StuddyBuddy\\StudyBuddy.Data\\Service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "StudyBuddy\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "StudyBuddy\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-22T13:36:02.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OutputModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\OutputModel.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\StudyBuddy.Data\\Models\\OutputModel.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\OutputModel.cs",
+              "RelativeToolTip": "StudyBuddy\\StudyBuddy.Data\\Models\\OutputModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:56:36.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Service.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\StudyBuddy.Data\\Service.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Service.cs",
+              "RelativeToolTip": "StudyBuddy\\StudyBuddy.Data\\Service.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwD8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:51:38.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InputPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\InputPage.xaml.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\InputPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\InputPage.xaml.cs",
+              "RelativeToolTip": "StudyBuddy\\InputPage.xaml.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAewFEAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:34:53.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\MainPage.xaml.cs",
+              "RelativeToolTip": "StudyBuddy\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:09:21.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlashCardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\FlashCardPage.xaml.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\FlashCardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\FlashCardPage.xaml.cs",
+              "RelativeToolTip": "StudyBuddy\\FlashCardPage.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:32:41.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuizPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\QuizPage.xaml.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\QuizPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\QuizPage.xaml.cs",
+              "RelativeToolTip": "StudyBuddy\\QuizPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:53:18.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Summary.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\Summary.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\Summary.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\Summary.cs",
+              "RelativeToolTip": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\Summary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:57:10.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\App.xaml.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\App.xaml.cs",
+              "RelativeToolTip": "StudyBuddy\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:59:22.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\AppShell.xaml.cs",
+              "RelativeToolTip": "StudyBuddy\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:51:11.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "StudyBuddy\\SettingsPage.xaml",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\SettingsPage.xaml",
+              "RelativeToolTip": "StudyBuddy\\SettingsPage.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAD4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-22T00:42:03.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QuizPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\QuizPage.xaml",
+              "RelativeDocumentMoniker": "StudyBuddy\\QuizPage.xaml",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\QuizPage.xaml",
+              "RelativeToolTip": "StudyBuddy\\QuizPage.xaml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwE4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-22T00:38:30.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\MainPage.xaml",
+              "RelativeDocumentMoniker": "StudyBuddy\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\MainPage.xaml",
+              "RelativeToolTip": "StudyBuddy\\MainPage.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-22T00:09:27.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SettingsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\SettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\SettingsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\SettingsPage.xaml.cs",
+              "RelativeToolTip": "StudyBuddy\\SettingsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:53:09.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\MauiProgram.cs",
+              "RelativeToolTip": "StudyBuddy\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:53:49.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InputPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\InputPage.xaml",
+              "RelativeDocumentMoniker": "StudyBuddy\\InputPage.xaml",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\InputPage.xaml",
+              "RelativeToolTip": "StudyBuddy\\InputPage.xaml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswFcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-22T00:33:36.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SummaryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\SummaryPage.xaml",
+              "RelativeDocumentMoniker": "StudyBuddy\\SummaryPage.xaml",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\SummaryPage.xaml",
+              "RelativeToolTip": "StudyBuddy\\SummaryPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-22T00:42:53.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FlashCardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\FlashCardPage.xaml",
+              "RelativeDocumentMoniker": "StudyBuddy\\FlashCardPage.xaml",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\FlashCardPage.xaml",
+              "RelativeToolTip": "StudyBuddy\\FlashCardPage.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-22T00:32:14.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FlashcardItem.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\FlashcardModels\\FlashcardItem.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\FlashcardModels\\FlashcardItem.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\FlashcardModels\\FlashcardItem.cs",
+              "RelativeToolTip": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\FlashcardModels\\FlashcardItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:58:00.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FlashcardsCollection.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\FlashcardModels\\FlashcardsCollection.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\FlashcardModels\\FlashcardsCollection.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\FlashcardModels\\FlashcardsCollection.cs",
+              "RelativeToolTip": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\FlashcardModels\\FlashcardsCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:57:56.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SummaryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\SummaryPage.xaml.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\SummaryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\SummaryPage.xaml.cs",
+              "RelativeToolTip": "StudyBuddy\\SummaryPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:54:14.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OutputDataModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\OutputDataModel.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\StudyBuddy.Data\\Models\\OutputDataModel.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\OutputDataModel.cs",
+              "RelativeToolTip": "StudyBuddy\\StudyBuddy.Data\\Models\\OutputDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:56:41.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\App.xaml",
+              "RelativeDocumentMoniker": "StudyBuddy\\App.xaml",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\App.xaml",
+              "RelativeToolTip": "StudyBuddy\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-22T00:59:25.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\Quiz.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\Quiz.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\Quiz.cs",
+              "RelativeToolTip": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\Quiz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:57:24.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "QuizModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\QuizModel.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\QuizModel.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\QuizModel.cs",
+              "RelativeToolTip": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\QuizModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:57:29.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StudyBuddy",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.csproj",
+              "RelativeDocumentMoniker": "StudyBuddy\\StudyBuddy.csproj",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.csproj",
+              "RelativeToolTip": "StudyBuddy\\StudyBuddy.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-22T11:04:26.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\AppShell.xaml",
+              "RelativeDocumentMoniker": "StudyBuddy\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\AppShell.xaml",
+              "RelativeToolTip": "StudyBuddy\\AppShell.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-22T00:46:40.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "QuizOption.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\QuizOption.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\QuizOption.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\QuizOption.cs",
+              "RelativeToolTip": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\QuizOption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:57:41.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "QuizQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\QuizQuestion.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\QuizQuestion.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\QuizQuestion.cs",
+              "RelativeToolTip": "StudyBuddy\\StudyBuddy.Data\\Models\\SubModels\\QuizModels\\QuizQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:57:35.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "InputModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\InputModel.cs",
+              "RelativeDocumentMoniker": "StudyBuddy\\StudyBuddy.Data\\Models\\InputModel.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\sketch_apr24a\\Study_Buddy_Hackathon_2025_June\\StudyBuddy\\StudyBuddy\\StudyBuddy.Data\\Models\\InputModel.cs",
+              "RelativeToolTip": "StudyBuddy\\StudyBuddy.Data\\Models\\InputModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T01:16:35.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\Mert\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\Mert\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAGICAAAAAAAAAAAuwHYCAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-22T00:54:56.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\Mert\\Desktop\\StuddyBuddy\\StudyBuddy.Data\\Service.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\StuddyBuddy\\StudyBuddy.Data\\Service.cs",
+              "ToolTip": "C:\\Users\\Mert\\Desktop\\StuddyBuddy\\StudyBuddy.Data\\Service.cs",
+              "RelativeToolTip": "..\\..\\..\\StuddyBuddy\\StudyBuddy.Data\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T00:15:17.599Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
