@@ -5,6 +5,7 @@
 main {
 	width: 50%;
 	margin: 30px 30px;
+	display: flex;
 }
 
 main h2 {
@@ -50,6 +51,18 @@ main .main-buttons {
 	flex-shrink: 0;
 	background-size: cover;
 	background-position: center;
+}
+
+.qr-code {
+	display: inline;
+	position: absolute;
+	background-color: #f3f3f3;
+	width: 500px;
+	height: 500px;
+	top: 25%;
+	left: 70%;
+	border: 5px solid #000000;
+	border-radius: 20px;
 }
 
 @keyframes scroll-horizontal {

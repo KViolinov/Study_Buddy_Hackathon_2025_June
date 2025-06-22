@@ -18,13 +18,14 @@
 }
 
 .dashboard {
+	margin-top: 50px;
 	display: flex;
 	justify-content: center;
 }
 
 .dashboard .form-container {
-    margin-top: 100px;
 	width: 400px;
+	height: 350px;
 	background: linear-gradient(var(--color-bg-form), var(--color-bg-form))
 			padding-box,
 		linear-gradient(
@@ -165,4 +166,18 @@
 	color: var(--color-disabled-text);
 	cursor: not-allowed;
 	border: 1px dashed var(--color-disabled-border);
+}
+.quiz-section {
+	border-radius: 16px;
+	padding: 20px 20px;
+	background-color: var(--color-bg-form);
+	margin-left: 50px;
+	box-shadow: 5px 5px 15px;
+	color: var(--color-text-white);
+}
+.quiz-question {
+	margin-bottom: 15px;
+}
+.quiz-question li {
+	list-style-type: none;
 }
