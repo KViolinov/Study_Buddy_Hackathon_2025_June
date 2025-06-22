@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "outDir": "./dist", // <-- важно!
+    "rootDir": "./src", // <-- важно!
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "include": ["src"], // <-- компилира само файловете в src/
+  "exclude": ["node_modules"]
+}
