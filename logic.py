@@ -92,15 +92,25 @@ user_choice = input("Select: quiz, flash cards, summary, or recall - ").lower()
 match user_choice:
     case "quiz":
         recall = False
-        initial_command = "Create a quiz based on the following text/youtube link in JSON format: "
+        initial_command = ("Create a quiz based on the following text/youtube link in JSON format: following"
+                           "this strict model format-> your json has to have similar format like this one about quiz:"
+                           "public class Quiz {"
+                           "public string Question { get; set; }"
+                           "public string CorrectAnswer { get; set; }"
+                            "public List<string> Options { get; set; }")
 
     case "flash cards":
         recall = False
         initial_command = "Create flash cards based on the following text/youtube link in JSON format: "
+        # ne backa
 
     case "summary":
         recall = False
-        initial_command = "Create a summary of the following text/youtube link in JSON format: "
+        initial_command = ("Create a summary of the following text/youtube link in JSON format:"
+                           "The returned json should be in this format:"
+                           "public class Summary {"
+                           "public string summary { get; set; }"
+                           "public string[] keywords { get; set; }")
 
     case "recall":
         recall = True

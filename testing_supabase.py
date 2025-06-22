@@ -99,34 +99,34 @@ genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
 system_instruction = (
-    "You are a study buddy app, i give you text/info about something and you create a quizes, "
+    "You are a study buddy app, i give you full text/lesson about something and you create a quizes, "
     "flash cards and/or summaries based on the information i give you"
 )
 
 chat = model.start_chat(history=[{"role": "user", "parts": [system_instruction]}])
 
 
-def summarize_youtube_video(youtube_link):
-    try:
-        # Extract video ID from the link
-        video_id = youtube_link.split("watch?v=")[1]
-        if "&" in video_id:
-            video_id = video_id.split("&")[0]
-
-        # Fetch the transcript
-        try:
-            from youtube_transcript_api import YouTubeTranscriptApi
-            transcript = YouTubeTranscriptApi.get_transcript(video_id)
-            text = ' '.join([entry['text'] for entry in transcript])
-        except Exception as e:
-            return f"Error fetching transcript: {e}"
-
-        if not text:
-            return "Could not retrieve transcript for the video."
-
-        return text  # Return the transcript
-    except Exception as e:
-        return f"An error occurred: {e}"
+# def summarize_youtube_video(youtube_link):
+#     try:
+#         # Extract video ID from the link
+#         video_id = youtube_link.split("watch?v=")[1]
+#         if "&" in video_id:
+#             video_id = video_id.split("&")[0]
+#
+#         # Fetch the transcript
+#         try:
+#             from youtube_transcript_api import YouTubeTranscriptApi
+#             transcript = YouTubeTranscriptApi.get_transcript(video_id)
+#             text = ' '.join([entry['text'] for entry in transcript])
+#         except Exception as e:
+#             return f"Error fetching transcript: {e}"
+#
+#         if not text:
+#             return "Could not retrieve transcript for the video."
+#
+#         return text  # Return the transcript
+#     except Exception as e:
+#         return f"An error occurred: {e}"
 
 recall = False
 user_input = ""
@@ -205,7 +205,12 @@ while True:
     match input_type:
         case "quiz":
             recall = False
-            initial_command = "Create a quiz based on the following text/youtube link in JSON format: "
+            initial_command = ("Create a quiz in JSON format: following"
+                               "this strict model format-> your json has to have similar format like this one about quiz:"
+                               "public class Quiz {"
+                               "public string Question { get; set; }"
+                               "public string CorrectAnswer { get; set; }"
+                               "public List<string> Options { get; set; }")
 
         case "flash cards":
             recall = False
@@ -213,7 +218,18 @@ while True:
 
         case "summary":
             recall = False
-            initial_command = "Create a summary of the following text/youtube link in JSON format: "
+            initial_command = ("Create a summarycase summary")
+            recall = False
+            initial_command = ("Create a summary of the following text/youtube link in JSON format:"
+            "The returned json should be in this format:"
+            "public class Summary {"
+                               
+            "public string summary { get; set; }"
+            "public string[] keywords { get; set; } in JSON format:"
+            "The returned json should be in this format:"
+            "public class Summary {"
+            "public string summary { get; set; }"
+            "public string[] keywords { get; set; }")
 
         case "recall":
             recall = True
@@ -253,3 +269,5 @@ while True:
 
     print("sleeping for 15 seconds to avoid rate limiting")
     time.sleep(15)
+
+    # Po vibe kodnato nqma na kude brat
