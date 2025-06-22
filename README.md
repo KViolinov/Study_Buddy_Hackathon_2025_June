@@ -1,3 +1,5 @@
+##Study Buddy App
+
 📚 Study Buddy is an AI-powered learning assistant that transforms any text into personalized study materials like summaries, flashcards, and quizzes. Designed to boost comprehension and retention, it simplifies studying and helps students prepare more effectively in less time.
 
 🎯 Goals
