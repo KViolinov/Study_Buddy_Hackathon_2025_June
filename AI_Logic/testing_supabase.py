@@ -214,7 +214,7 @@ while True:
 
         case "flash cards":
             recall = False
-            initial_command = "Create flash cards based on the following text/youtube link in JSON format: "
+            initial_command = "Create flash cards based on the following text in JSON format: "
 
         case "summary":
             recall = False
