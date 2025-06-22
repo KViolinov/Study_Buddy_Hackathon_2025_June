@@ -20,29 +20,13 @@ Study Buddy is an innovative mobile application designed to revolutionize your s
 
 Study Buddy is built with a modern tech stack to ensure a robust, scalable, and responsive application.
 
-* **Frontend:** \[Specify Mobile Framework, e.g., React Native, Flutter, Swift/Kotlin (Native)\]
+* **Frontend:** `JavaScript` and `Node.js` for cross-platform compatibility.
 
-  * Example: `React Native` for cross-platform compatibility.
+* **Backend:** `Node.js` with `Express.js` with `TypeScript` for a scalable backend.
 
-* **Backend:** \[Specify Backend Framework/Language, e.g., Node.js, Python/Django/Flask, Ruby on Rails, Java/Spring Boot\]
+* **Database:** `Supabase` with `PostgreSQL` for real-time data synchronization.
 
-  * Example: `Node.js` with `Express.js`
-
-* **Database:** \[Specify Database, e.g., MongoDB, PostgreSQL, Firebase Firestore\]
-
-  * Example: `Firebase Firestore` for real-time data synchronization.
-
-* **AI/ML:** \[Specify AI/ML Libraries/APIs, e.g., Google Cloud AI Platform, OpenAI API, Hugging Face Transformers\]
-
-  * Example: `Google Cloud AI Platform` (for text summarization, entity extraction, and question generation)
-
-* **Authentication:** \[Specify Auth Method, e.g., Firebase Authentication, OAuth\]
-
-  * Example: `Firebase Authentication`
-
-* **Deployment:** \[Specify Deployment Platform, e.g., Google Cloud Run, AWS Amplify, Vercel\]
-
-  * Example: `Google Cloud Run` (for backend services)
+* **AI/ML:** `Google Gemini 1.5 flash model` (for text summarization, entity extraction, and question generation)
 
 ## 🛠️ Installation
 
@@ -50,47 +34,31 @@ To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
-* [Node.js](https://nodejs.org/en/download/) (if using React Native/Node.js backend)
-
 * [npm](https://www.npmjs.com/get-npm) or [Yarn](https://yarnpkg.com/)
-
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-
-* \[Mobile Development Environment (e.g., Android Studio, Xcode) if building native apps\]
+* [Python](https://python.org/downloads/) 
 
 ### Clone the repository
 
 ```
-git clone [https://github.com/yourusername/study-buddy.git](https://github.com/yourusername/study-buddy.git)
+git clone [https://github.com/KViolinov/Study_Buddy_Hackathon_2025_June.git](https://github.com/KViolinov/Study_Buddy_Hackathon_2025_June.git)
 cd study-buddy
+```
 
+### AI/ML Setup (if applicable)
 
+```
+python -m venv venv # Create a virtual environment
+pip install google.genetativeai json datetime supabase dotenv
 ```
 
 ### Backend Setup (if applicable)
 
 ```
-cd backend # Navigate to your backend directory
-npm install # or yarn install
-# Configure your environment variables (e.g., AI API keys, database credentials)
-# cp .env.example .env # Create a .env file from example and fill it
-npm start # or node server.js
-
-
+npm run build # Build the backend
+npm start
 ```
 
-### Frontend Setup
-
-```
-cd frontend # Navigate to your frontend directory
-npm install # or yarn install
-# For React Native:
-npx react-native run-android # or npx react-native run-ios
-# For Flutter:
-flutter run
-
-
-```
 
 ## 💡 Usage
 
@@ -129,6 +97,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📞 Contact
 
-Your Name/Team Name - [Your Email](mailto:your.email@example.com)
+Bolyar Coders - [Your Email](mailto:konstantinviolinov@outlook.com)
 
-Project Link: <https://github.com/yourusername/study-buddy>
+Website Link: <https://kvb-bg.com/Study_Buddy>
