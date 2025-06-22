@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="StudyBuddy.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:StudyBuddy"
+    Shell.NavBarIsVisible="False"
+    Title="StudyBuddy"
+
+    Shell.TabBarBackgroundColor="#0769C3"
+    Shell.TabBarForegroundColor="White"
+    Shell.TabBarTitleColor="White"
+    Shell.TabBarUnselectedColor="White"
+>
+
+    <TabBar>
+        <ShellContent 
+           Title="Settings"
+            Icon="settings.png"
+           ContentTemplate="{DataTemplate local:SettingsPage}" />
+
+        <ShellContent 
+            Title="Home"
+           Icon="home.png"
+            ContentTemplate="{DataTemplate local:MainPage}" />
+
+        <ShellContent 
+          Title="Chat"
+          Icon="chat.png"
+          ContentTemplate="{DataTemplate local:InputPage}" />
+
+      
+    </TabBar>
+
+</Shell>
+

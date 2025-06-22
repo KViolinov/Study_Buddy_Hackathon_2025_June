@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudyBuddy.InputPage"
+             BackgroundColor="#f9f9f9"
+             Title="InputPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Image Source="study_buddy_logo.png"
+       WidthRequest="280"
+       HeightRequest="280"
+       Grid.Column="1"
+       Aspect="AspectFit" 
+                   Margin="0,0,0,50"/>
+           
+            <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="5">
+             
+                <!-- Left "+" Button -->
+                <Button Text="+" 
+            WidthRequest="40"
+            HeightRequest="40"
+            CornerRadius="20"
+            BackgroundColor="#9d6ce6"
+            TextColor="White"
+            FontSize="24"
+            Grid.Column="0" 
+            Padding="0,0,0,0"
+                        Margin="10,0,0,0"
+                       
+            Clicked="Button_Clicked"/>
+
+                <!-- Frame with Entry and Right Button Inside -->
+                <Frame Grid.Column="1"
+           CornerRadius="13"
+           HasShadow="False"
+           BackgroundColor="White"
+           Padding="10,5"
+                       WidthRequest="325"
+           VerticalOptions="Center">
+                    <Grid ColumnDefinitions="*,Auto">
+                        <Entry x:Name="TextEntryTxt" 
+                            Placeholder="Enter something..."
+                   FontFamily="Poppins"
+                   TextColor="Black"
+                   FontAttributes="Bold"
+                   BackgroundColor="Transparent"
+                   Grid.Column="0" />
+
+                        <Button 
+                Text="↑"
+                FontSize="20"
+                Grid.Column="1"
+                BackgroundColor="#9d6ce6"
+                TextColor="White"
+                CornerRadius="6"
+                Padding="10,0"
+                HeightRequest="30"
+                WidthRequest="40"
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                            Clicked="Button_Clicked_1"/>
+                    </Grid>
+                </Frame>
+                
+            </Grid>
+            <Frame x:Name="SelectPanel"
+       IsVisible="False"
+       CornerRadius="15"
+       BackgroundColor="Black"
+       Padding="10"
+       Margin="10"
+       HasShadow="False">
+                <StackLayout Spacing="10">
+                    <Label Text="Select an option:" FontAttributes="Bold" FontSize="18"/>
+                    <Button Text="Upload Word/PowerPoint files" 
+                             BackgroundColor="#0769C3"
+                             TextColor="White"
+    FontFamily="Poppins" Clicked="Button_Clicked_2"/>
+                    <Button Text="Upload PDF file"
+                             BackgroundColor="#0769C3"
+                             TextColor="White"
+    FontFamily="Poppins" Clicked="Button_Clicked_2"/>
+                    <Button Text="Upload YouTube video link" 
+                             BackgroundColor="#0769C3"
+                            TextColor="White"
+                               FontFamily="Poppins" Clicked="Button_Clicked_2"
+                            />
+                </StackLayout>
+            </Frame>
+            <Label
+                    Text="Choose option:"
+                    TextColor="Black"
+                Margin="20,20,0,10"
+                 FontFamily="Poppins"
+           
+                FontSize="20"/>
+            <Grid RowDefinitions="*,*"
+                  ColumnDefinitions="*,*"
+                  RowSpacing="10" 
+                  ColumnSpacing="10"
+                  Padding="10">
+
+                <Button Text="Summary"
+                        x:Name="SummaryBtn"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        FontSize="20"
+                        BackgroundColor="#0769C3"
+                        TextColor="White"
+                        CornerRadius="13"
+                         FontFamily="Poppins"
+                        Clicked="ClickedSummaryButton"/>
+
+                <Button Text="Quiz"
+                        x:Name="QuizBtn"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                         FontSize="20"
+                        BackgroundColor="#0769C3"
+                        TextColor="White"
+                          CornerRadius="13"
+                        FontFamily="Poppins"
+                        Clicked="ClickedQuizButton"/>
+                
+
+                <Button Text="Flash Cards"
+                        x:Name="FlashCardsBtn"
+                        Grid.Row="1"
+                        Grid.Column="0" 
+                         FontSize="20"
+                        BackgroundColor="#0769C3"
+                        TextColor="White"
+                          FontFamily="Poppins"
+                          CornerRadius="13"
+                        Clicked="ClickedFlashCardButton"/>
+
+                <Button Text="Resight"
+                        x:Name="ResightBtn"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                         FontSize="20"
+                        BackgroundColor="#808080"
+                        TextColor="White"
+                          CornerRadius="13"
+                         FontFamily="Poppins"
+                        Clicked="ClickedResightButton"/>
+
+
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
