@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/dashboard.css" />
+		<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+		<script type="module" src="js/dashboard.js"></script>
+		<title>Dashboard</title>
+	</head>
+	<body>
+		<nav>
+			<div class="nav-left">
+				<a href="index.html"
+					><div>
+						<img class="logo" src="images/logo.png" /></div
+				></a>
+				<div class="nav-left-text">
+					<a href="index.html#about-us">About Us</a>
+					<a
+						href="https://github.com/KViolinov/Study_Buddy_Hackathon_2025_June"
+						>GitHub</a
+					>
+				</div>
+			</div>
+		</nav>
+		<section class="dashboard">
+			<div class="form-container">
+				<form class="form">
+					<div class="mode-select">
+						<button type="button" class="mode-btn active">
+							Quizzes
+						</button>
+						<button
+							type="button"
+							class="mode-btn disabled"
+							title="To be added soon 🔒"
+						>
+							Flashcards
+						</button>
+						<button
+							type="button"
+							class="mode-btn disabled"
+							title="To be added soon 🔒"
+						>
+							Short Answers
+						</button>
+						<button
+							type="button"
+							class="mode-btn disabled"
+							title="To be added soon 🔒"
+						>
+							Revision
+						</button>
+					</div>
+
+					<div class="form-group">
+						<label for="textarea">Enter a topic</label>
+						<textarea
+							required=""
+							cols="50"
+							rows="10"
+							id="textarea"
+							name="textarea"
+						>
+						</textarea>
+					</div>
+					<button type="submit" class="form-submit-btn">
+						Submit
+					</button>
+				</form>
+			</div>
+		</section>
+	</body>
+</html>
