@@ -34,7 +34,7 @@ To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
-* [npm](https://www.npmjs.com/get-npm) or [Yarn](https://yarnpkg.com/)
+* [npm](https://www.npmjs.com/get-npm)
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Python](https://python.org/downloads/) 
 
@@ -55,6 +55,7 @@ pip install google.genetativeai json datetime supabase dotenv
 ### Backend Setup (if applicable)
 
 ```
+npm i
 npm run build # Build the backend
 npm start
 ```
@@ -97,6 +98,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📞 Contact
 
-Bolyar Coders - [Your Email](mailto:konstantinviolinov@outlook.com)
+Bolyar Coders - [Konstantin Violinov](mailto:konstantinviolinov@outlook.com)
 
 Website Link: <https://kvb-bg.com/Study_Buddy>
